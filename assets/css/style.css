@@ -1,0 +1,19 @@
+section div.container div div.js-accordion p.ativo {
+  display: block;
+  animation: slideDown 1s forwards;
+}
+
+section div.container div div.js-accordion button.ativo .plus-icon {
+  transform: rotate(0);
+}
+
+@keyframes slideDown {
+  from {
+      opacity: 0;
+      max-height: 0;
+  }
+  to {
+      max-height: 450px;
+      opacity: 1;
+  }
+}
